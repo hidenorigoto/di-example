@@ -28,3 +28,15 @@ var_dump($single);
 
 $dependent = $di->newInstance('Dependent');
 var_dump($dependent);
+
+/* outputs
+
+class Single#14 (0) {
+}
+class Dependent#15 (1) {
+  private $s =>
+  class Single#14 (0) {
+  }
+}
+
+*/
