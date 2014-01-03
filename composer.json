@@ -1,0 +1,6 @@
+{
+    "require": {
+        "aura/di": "dev-master",
+        "zendframework/zend-di": "2.2.*"
+    }
+}
