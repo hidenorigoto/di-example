@@ -1,4 +1,9 @@
 <?php
+/**
+ * @link      https://github.com/hidenorigoto/di-example
+ * @license   Public Domain
+ */
+
 require_once "vendor/autoload.php";
 
 class Single {
